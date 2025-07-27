@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Check For Updates
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\AutoIt\\ v3\\\\Check\\ For\\ Updates.lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Program Files (x86)/AutoIt3/SciTE
+Icon=1C7A_AutoIt3.0
+StartupWMClass=autoit3.exe

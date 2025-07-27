@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Browse Extras
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\AutoIt\\ v3\\\\Extras\\\\Browse\\ Extras.lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Program Files (x86)/AutoIt3/SciTE
+StartupWMClass=extras

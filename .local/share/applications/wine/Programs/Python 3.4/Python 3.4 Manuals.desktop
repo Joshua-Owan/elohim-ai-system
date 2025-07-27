@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Python 3.4 Manuals
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\users\\\\joshua-owan\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Python\\ 3.4\\\\Python\\ 3.4\\ Manuals.lnk
+Type=Application
+StartupNotify=true
+Icon=0169_python344.0
+StartupWMClass=python344.chm

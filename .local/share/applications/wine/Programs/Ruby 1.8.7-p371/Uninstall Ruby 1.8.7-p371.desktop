@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall Ruby 1.8.7-p371
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\users\\\\joshua-owan\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Ruby\\ 1.8.7-p371\\\\Uninstall\\ Ruby\\ 1.8.7-p371.lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Ruby187
+Icon=1604_unins000.0
+StartupWMClass=unins000.exe

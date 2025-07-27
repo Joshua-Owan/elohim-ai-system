@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Python 3.4 (command line - 32 bit)
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\users\\\\joshua-owan\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Python\\ 3.4\\\\Python\\ 3.4\\ \\(command\\ line\\ -\\ 32\\ bit\\).lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Python34/
+Icon=149D_python_icon.2
+StartupWMClass=python.exe

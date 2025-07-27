@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Compile Script to .exe (x86)
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\AutoIt\\ v3\\\\Compile\\ Script\\ to\\ .exe\\ \\(x86\\).lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Program Files (x86)/AutoIt3/Aut2Exe
+Icon=D74D_Aut2Exe.0
+StartupWMClass=aut2exe.exe

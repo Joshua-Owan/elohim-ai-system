@@ -1,0 +1,70 @@
+   173.3ms (setup:1108): 2025-07-27 03:40:15
+   173.5ms (setup:1109): /usr/bin/pipx install colorama requests
+   173.5ms (setup:1110): pipx version is 1.7.1
+   173.6ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   175.1ms (package_name_from_spec:378): Determined package name: colorama
+   175.2ms (package_name_from_spec:379): Package name determined in 0.0s
+   175.3ms (package_name_from_spec:378): Determined package name: requests
+   175.3ms (package_name_from_spec:379): Package name determined in 0.0s
+   175.6ms (create_venv:164): Creating virtual environment
+   176.4ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --without-pip /home/joshua-owan/.local/share/pipx/venvs/colorama
+   253.2ms (run_subprocess:195): stdout:
+   253.3ms (run_subprocess:197): stderr:
+   253.4ms (run_subprocess:198): returncode: 0
+   254.1ms (run_subprocess:175): running <checking pip's availability>
+   282.2ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7bc1a136f150>, origin='/home/joshua-owan/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/joshua-owan/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+   282.3ms (run_subprocess:198): returncode: 0
+   282.6ms (run_subprocess:175): running /home/joshua-owan/.local/share/pipx/venvs/colorama/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   312.4ms (run_subprocess:195): stdout: /home/joshua-owan/.local/share/pipx/venvs/colorama/lib/python3.13/site-packages
+   312.5ms (run_subprocess:198): returncode: 0
+   312.9ms (run_subprocess:175): running /home/joshua-owan/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   341.0ms (run_subprocess:195): stdout: /home/joshua-owan/.local/share/pipx/shared/lib/python3.13/site-packages
+   341.1ms (run_subprocess:198): returncode: 0
+   341.6ms (run_subprocess:175): running /home/joshua-owan/.local/share/pipx/venvs/colorama/bin/python --version
+   344.4ms (run_subprocess:195): stdout: Python 3.13.3
+   344.5ms (run_subprocess:197): stderr:
+   344.5ms (run_subprocess:198): returncode: 0
+   344.8ms (_parsed_package_to_package_or_url:139): cleaned package spec: colorama
+   344.8ms (install_package:247): Installing colorama
+   345.7ms (run_subprocess:175): running /home/joshua-owan/.local/share/pipx/venvs/colorama/bin/python -m pip --no-input install colorama
+  2081.0ms (run_subprocess:198): returncode: 0
+  2082.1ms (run_subprocess:175): running <fetch_info_in_venv commands>
+  2124.8ms (run_subprocess:195): stdout: {"sys_path": ["/usr/lib/python313.zip", "/usr/lib/python3.13", "/usr/lib/python3.13/lib-dynload", "/home/joshua-owan/.local/share/pipx/venvs/colorama/lib/python3.13/site-packages", "/home/joshua-owan/.local/share/pipx/shared/lib/python3.13/site-packages"], "python_version": "3.13.3", "environment": {"implementation_name": "cpython", "implementation_version": "3.13.3", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "6.6.87.2-microsoft-standard-WSL2", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025", "python_full_version": "3.13.3", "platform_python_implementation": "CPython", "python_version": "3.13", "sys_platform": "linux"}}
+  2124.9ms (run_subprocess:198): returncode: 0
+  2132.9ms (get_venv_metadata_for_package:351): get_venv_metadata_for_package: 51ms
+  2133.1ms (_parsed_package_to_package_or_url:139): cleaned package spec: colorama
+  2133.5ms (rmdir:56): removing directory /home/joshua-owan/.local/share/pipx/venvs/colorama
+  2136.6ms (cli:1179): PipxError: No apps associated with package colorama or its dependencies. If you are
+attempting to install a library, pipx should not be used. Consider using pip or a
+similar tool instead.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 1176, in cli
+    return run_pipx_command(parsed_pipx_args, subparsers)
+  File "/usr/lib/python3/dist-packages/pipx/main.py", line 282, in run_pipx_command
+    return commands.install(
+           ~~~~~~~~~~~~~~~~^
+        None,
+        ^^^^^
+    ...<13 lines>...
+        python_flag_passed=python_flag_passed,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/commands/install.py", line 108, in install
+    run_post_install_actions(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        venv,
+        ^^^^^
+    ...<5 lines>...
+        force=force,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3/dist-packages/pipx/commands/common.py", line 418, in run_post_install_actions
+    raise PipxError(
+    ...<5 lines>...
+    )
+pipx.util.PipxError: No apps associated with package colorama or its dependencies. If you are
+attempting to install a library, pipx should not be used. Consider using pip or a
+similar tool instead.
+  2143.2ms (cli:1187): pipx finished.

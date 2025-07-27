@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=AutoIt Window Info (x86)
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\AutoIt\\ v3\\\\AutoIt\\ Window\\ Info\\ \\(x86\\).lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Program Files (x86)/AutoIt3
+Icon=C11F_AU3Info.0
+StartupWMClass=au3info.exe

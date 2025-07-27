@@ -1,0 +1,42 @@
+# elohim.py
+
+import os
+import time
+
+def generate_video(topic):
+    print(f"\n🎬 Creating video content about '{topic}'...")
+    time.sleep(2)
+    print("📽️  Drafting script...")
+    time.sleep(1)
+    print("🖼️  Generating visuals...")
+    time.sleep(1)
+    print("🎵 Adding music and voiceover...\n")
+    time.sleep(2)
+    print(f"✅ Video on '{topic}' generated successfully!\n")
+
+def calculate_income(days):
+    daily_income = 15  # example logic
+    total = daily_income * days
+    print(f"\n💰 Estimated income over {days} days: ${total}\n")
+
+def main():
+    print("🌟 Welcome to the Elohim Terminal 🌟")
+    while True:
+        cmd = input("ELOHIM> ").strip().lower()
+        if cmd == "exit":
+            print("👋 Goodbye.")
+            break
+        elif cmd.startswith("generate video about "):
+            topic = cmd.replace("generate video about ", "")
+            generate_video(topic)
+        elif cmd.startswith("calculate income "):
+            try:
+                days = int(cmd.replace("calculate income ", ""))
+                calculate_income(days)
+            except:
+                print("❌ Invalid number of days.")
+        else:
+            print("⚠️  Unknown command. Try: generate video about peace | calculate income 7 | exit")
+
+if name == "__main__":
+    mazz

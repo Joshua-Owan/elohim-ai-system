@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=VBScript Examples
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\AutoIt\\ v3\\\\Extras\\\\AutoItX\\\\VBScript\\ Examples.lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Program Files (x86)/AutoIt3/AutoItX
+StartupWMClass=vbscript

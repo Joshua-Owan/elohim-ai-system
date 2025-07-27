@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Start Command Prompt with Ruby
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\users\\\\joshua-owan\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Ruby\\ 1.8.7-p371\\\\Start\\ Command\\ Prompt\\ with\\ Ruby.lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/users/joshua-owan
+Icon=9241_cmd.0
+StartupWMClass=cmd.exe

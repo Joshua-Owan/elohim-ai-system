@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=AutoIt v3 Website
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\AutoIt\\ v3\\\\Extras\\\\AutoIt\\ v3\\ Website.lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Program Files (x86)/AutoIt3/SciTE
+StartupWMClass=autoit v3 website.url

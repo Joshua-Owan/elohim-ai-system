@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Uninstall Python 3.4 (32 bit)
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\users\\\\joshua-owan\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Python\\ 3.4\\\\Uninstall\\ Python\\ 3.4\\ \\(32\\ bit\\).lnk
+Type=Application
+StartupNotify=true
+Icon=22F6_msiexec.0
+StartupWMClass=msiexec

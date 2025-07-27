@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=AutoIt Help File
+Exec=env WINEPREFIX="/var/lib/veil/wine" wine-stable C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\AutoIt\\ v3\\\\AutoIt\\ Help\\ File.lnk
+Type=Application
+StartupNotify=true
+Path=/var/lib/veil/wine/dosdevices/c:/Program Files (x86)/AutoIt3
+Icon=5BFE_AutoIt.0
+StartupWMClass=autoit.chm
